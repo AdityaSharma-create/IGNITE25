@@ -1,0 +1,63 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+}
+
+.faq-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.faq-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.faq-card {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.faq-card:hover, .faq-card.active {
+  background-color: #ffa500;
+}
+
+.faq-card h3 {
+  margin: 0;
+}
+
+.faq-card p {
+  margin-top: 10px;
+  display: none;
+}
+
+.faq-card.active p {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .faq-card:hover {
+    background-color: #1a1a1a;
+  }
+  
+  .faq-card.active {
+    background-color: #ffa500;
+  }
+}

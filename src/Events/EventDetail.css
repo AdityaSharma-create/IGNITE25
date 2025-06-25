@@ -1,0 +1,67 @@
+.event-detail {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .main-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff8c00;
+  }
+  
+  .carousel-slide {
+    text-align: center;
+  }
+  
+  .carousel-slide img {
+
+    object-fit: cover;
+
+  }
+  
+  .person-name {
+    font-weight: bold;
+  }
+  
+  .hotbar {
+    margin: 20px 0;
+    padding: 10px;
+    
+  }
+
+  .image-carousel {
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  .content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 0 20px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #ff8c00;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .main-title {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+    }
+  }

@@ -1,0 +1,27 @@
+.countdown{
+    display: flex;
+    margin-top:3vh;
+    gap: 0.5vw;
+}
+
+.countdown_package_whole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown_elements{
+    width:9vw;
+    height:18vh;
+    background-color: gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+}
+
+.specific_countdown_label{
+    font-size: 1.5vw;
+}

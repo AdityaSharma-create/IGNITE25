@@ -1,0 +1,57 @@
+.home_section_carousel_container{
+    width: 90vw;
+    overflow:hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+
+.home_section_carousel{
+    display:flex;
+    overflow: hidden;
+    width: 100vw;
+    gap:1vw;
+}
+
+
+.home_section_carousel_title{
+    margin-left: 13px;
+    margin-top:0.5em; 
+}
+
+
+.home_section_previous_button{
+    position: absolute;
+    top:0%;
+    left:0%;
+    z-index: 10;
+    height:100%;
+    opacity: 40%;
+    border: 1px 1px 1px 1px black;
+    transition: all 0.5s;
+}
+.home_section_previous_button:hover{
+    opacity: 70%;
+}
+
+.home_section_previous_button:focus{
+    outline: none;
+}
+
+.home_section_next_button{
+    position: absolute;
+    top:0%;
+    right:0%;
+    z-index: 10;
+    height:100%;
+    opacity: 40%;
+    border: 1px 1px 1px 1px black;
+    transition: all 0.5s;
+}
+.home_section_next_button:hover{
+    opacity: 70%;
+}
+
+.home_section_next_button:focus{
+    outline: none;
+}
