@@ -8,7 +8,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 export default function Home() {
 
-  const targetDate = "2024-11-02T23:59:59";
+  const targetDate = "2025-11-02T23:59:59";
 
   
   return (
